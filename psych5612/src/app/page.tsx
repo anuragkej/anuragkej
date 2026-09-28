@@ -63,8 +63,8 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="mt-12 grid gap-10 lg:grid-cols-[1fr_18rem]">
-        <div>
+      <section className="mt-12 grid gap-10 lg:grid-cols-[minmax(0,1fr)_17rem]">
+        <div className="min-w-0">
           <h2 className="text-xl font-semibold tracking-tight">Study path</h2>
           <p className="mt-1 mb-5 text-sm leading-6 text-muted-foreground">
             Follow the dependency chain. For each chapter, read the explanation, close it, explain the idea aloud, write or

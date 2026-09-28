@@ -24,7 +24,6 @@ export default async function ChapterPage({ params }: PageProps<"/learn/[slug]">
   const index = chapters.indexOf(meta)
   const prev = chapters[index - 1]
   const next = chapters[index + 1]
-  const recall = chapter.recall
 
   return (
     <div className="mx-auto flex w-full max-w-6xl gap-12 px-5 py-10 sm:px-8">
@@ -56,14 +55,14 @@ export default async function ChapterPage({ params }: PageProps<"/learn/[slug]">
 
         <Markdown>{chapter.markdown}</Markdown>
 
-        {recall.length > 0 && (
+        {chapter.recall.length > 0 && (
           <section className="mt-14 rounded-xl border bg-muted/40 p-5">
             <h2 className="text-base font-semibold">Recall before moving on</h2>
             <p className="mt-1 text-sm text-muted-foreground">
               Close the page and produce each of these from memory, then check what you omitted.
             </p>
             <ol className="mt-4 list-decimal space-y-2 pl-5 text-[0.95rem] leading-7">
-              {recall.map((r) => (
+              {chapter.recall.map((r) => (
                 <li key={r}>{r}</li>
               ))}
             </ol>

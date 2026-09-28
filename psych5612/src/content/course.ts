@@ -14,7 +14,7 @@ export type ChapterMeta = {
 
 export const parts: { id: PartId; title: string; lectures: string }[] = [
   { id: "mind", title: "Mind, brain, and culture", lectures: "L02-L05" },
-  { id: "machines", title: "From behaviorism to machines", lectures: "L06-L09" },
+  { id: "machines", title: "Behaviorism to machines", lectures: "L06-L09" },
   { id: "ai", title: "Intelligence and AI", lectures: "L10-L11" },
 ]
 
