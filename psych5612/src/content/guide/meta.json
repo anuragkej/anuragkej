@@ -1,0 +1,269 @@
+[
+  {
+    "number": 1,
+    "title": "Scope, priorities, and how to use this document",
+    "sources": "",
+    "recall": "",
+    "sections": [
+      "What to study first",
+      "Scope details that are easy to miss",
+      "Required versus optional pages",
+      "What this compilation can and cannot establish"
+    ]
+  },
+  {
+    "number": 2,
+    "title": "Minds, perspectives, and Cartesian dualism",
+    "sources": "",
+    "recall": "State both Cartesian claims. Give an example of each causal direction. Explain why “distinct” does not mean “unable to interact by definition.” Contrast interactionism and epiphenomenalism.",
+    "sections": [
+      "First person and third person",
+      "Manifest and scientific images",
+      "The two Cartesian claims you must reproduce",
+      "Four causal directions",
+      "Physical causal closure and epiphenomenalism",
+      "Video details beyond the shortest definition"
+    ]
+  },
+  {
+    "number": 3,
+    "title": "Naturalism, physicalism, and evidence from damaged brains",
+    "sources": "Sources: L03; updated L04; Damasio; Luria; the two discussion sheets; CQ02 topic coverage.",
+    "recall": "Explain how a methodological naturalist could be religious. Distinguish physicalism from causal closure. Draw the crossed dissociation table. State what the brain cases support and what they do not prove.",
+    "sections": [
+      "Three theses that must stay separate",
+      "Physicalism",
+      "Phineas Gage",
+      "Lev Zasetsky",
+      "Single versus double dissociation",
+      "Inference to the best explanation"
+    ]
+  },
+  {
+    "number": 4,
+    "title": "What cognitive science is",
+    "sources": "Sources: updated L04, especially p. 17; Boden, printed pp. 9 and 12 and surrounding chapter.",
+    "recall": "Reproduce Boden's sentence. Name the three meanings of breadth. Give one example of integrating evidence from two disciplines.",
+    "sections": [
+      "Six conventional constituent disciplines",
+      "Interdisciplinary integration"
+    ]
+  },
+  {
+    "number": 5,
+    "title": "Human distinctiveness, culture, and shared intentionality",
+    "sources": "Sources: L05; Miller & Wood; Ayala, all seven pages; Tomasello & Herrmann; assigned Tomasello talk segments.",
+    "recall": "Define culture in both authors' terms. Explain ratcheting with an example. Describe the two Q8 observations without saying “the child is smarter.” Explain why reason-giving can improve cultural transmission.",
+    "sections": [
+      "Continuity and distinctiveness",
+      "Two definitions of culture",
+      "Six characteristics in Miller & Wood",
+      "Biological versus cultural inheritance",
+      "Cumulative culture and the ratchet effect",
+      "Tomasello and Herrmann: physical versus social cognition",
+      "Q8: the actual video observations",
+      "Other required observations in the talk",
+      "Pedagogy and cultural transmission, 38:28-47:37",
+      "Dual inheritance, 50:12-end"
+    ]
+  },
+  {
+    "number": 6,
+    "title": "From behaviorism to computational explanations",
+    "sources": "Sources: L06, core pp. 1-28; Bermúdez Excerpt 1, §1.1 PDF pp. 2-8, §1.3 pp. 8-11, §2.1 pp. 13-22.",
+    "recall": "Explain latent learning without confusing learning with reward-driven performance. Give a hierarchical-language example. Describe SHRDLU's three kinds of processing and one limitation.",
+    "sections": [
+      "Why behaviorism appealed",
+      "Tolman: learning is not identical to performance",
+      "Lashley and hierarchical organization",
+      "Chomsky: language is structured and productive",
+      "SHRDLU: a working micro-world",
+      "Representation, vehicle, and content"
+    ]
+  },
+  {
+    "number": 7,
+    "title": "Digital abstraction: how physical voltages become dependable symbols",
+    "sources": "Sources: L06, pp. 29-43; L07, pp. 5-26; Harris & Harris, PDF pp. 3-17 and 19-22.",
+    "recall": "Define discipline generally and digital discipline specifically. Explain the buffer with both a truth table and voltages. Calculate both noise margins. Distinguish tcd from tpd.",
+    "sections": [
+      "Abstraction and discipline",
+      "Binary representation",
+      "Finite functions and finite Boolean functions",
+      "Logic levels and noise margins",
+      "Why a buffer is not physically redundant",
+      "Static discipline and delays",
+      "Transistors and the abstraction ladder"
+    ]
+  },
+  {
+    "number": 8,
+    "title": "Combinatorial circuits and Boolean construction",
+    "sources": "Sources: L07; Harris & Harris combinational excerpt; Patterson & Hennessy, especially PDF pp. 3-15. “Combinatorial” and “combinational” refer to the same distinction here.",
+    "recall": "Fill the gate table from memory. Construct XOR from AND/OR/NOT. Explain why a half-adder needs a carry output. State the three composition rules and the first computation fact.",
+    "sections": [
+      "Gates",
+      "Useful algebra",
+      "What makes a circuit combinatorial",
+      "Constructing a circuit from a truth table",
+      "Arithmetic as logic",
+      "First important fact about computation"
+    ]
+  },
+  {
+    "number": 9,
+    "title": "Sequential circuits, FSMs, registers, and clocks",
+    "sources": "Sources: L08, core pp. 1-40; Harris & Harris PDF pp. 24-33; Patterson & Hennessy pp. 17-26; Dally & Harting chapter excerpt.",
+    "recall": "Trace the four-state controller. Explain state versus output. Draw the toggle and count its states. State the register definition precisely. Give both versions of the synchronous conditions and explain their relationship.",
+    "sections": [
+      "Why memory changes the problem",
+      "The abstract FSM",
+      "Course traffic-light controller",
+      "Encoding states and implementing the functions",
+      "Latches versus registers",
+      "Synchronous discipline: the important wording discrepancy",
+      "Dynamic discipline and the clock edge",
+      "A simple exam-ready FSM you can draw",
+      "Second important fact about computation"
+    ]
+  },
+  {
+    "number": 10,
+    "title": "Turing machines, universal computation, and physical implementation",
+    "sources": "Sources: L09; Haugeland chapter excerpt; Turing 1950 §§3-5; L08's introduction.",
+    "recall": "Contrast the operator's interaction with FSM and TM. Give both clauses of equivalence. State the two UTM inputs and its exact simulation guarantee. Explain equal computability despite unequal efficiency.",
+    "sections": [
+      "Why an FSM is not enough for every problem",
+      "How the operator interacts with it",
+      "A tiny trace",
+      "Implementing a mathematical function",
+      "Functional equivalence",
+      "Universal Turing machines",
+      "Hardware and software routes",
+      "Von Neumann architecture",
+      "Third important fact about computation"
+    ]
+  },
+  {
+    "number": 11,
+    "title": "Church-Turing, intelligence, and the AI framework",
+    "sources": "Sources: L10, pp. 5-24; Q19-23; Turing and Haugeland readings.",
+    "recall": "State the thesis and two kinds of evidence. Explain why the halting problem does not contradict universality. Give McCarthy's two definitions with their labels. Separate physical implementation from mental sufficiency.",
+    "sections": [
+      "Church-Turing thesis",
+      "Universality has limits",
+      "McCarthy's two definitions",
+      "Symbolic AI and competing approaches",
+      "Physical, computational, and mental levels"
+    ]
+  },
+  {
+    "number": 12,
+    "title": "Turing's 1950 article and the Turing Test",
+    "sources": "Sources: Turing, “Computing Machinery and Intelligence,” all §§1-7; L10, especially pp. 26-35. The accessible file has Copeland's introduction before Turing's article; do not confuse the two authors.",
+    "recall": "Describe the roles and hidden channels. Explain three objections and Turing's response. Explain why learning matters to Lovelace's objection. Distinguish a test result from a proof of consciousness.",
+    "sections": [
+      "§§1-2: replace a vague question with a testable game",
+      "§§3-5: machines, digital organization, and universality",
+      "§6: the nine contrary views",
+      "§7: learning machines",
+      "What passing establishes, and what remains disputed"
+    ]
+  },
+  {
+    "number": 13,
+    "title": "Chinese Room, strong AI, and symbol grounding",
+    "sources": "Sources: L10, pp. 39-45; Bermúdez Chinese Room excerpt, especially pp. 1-6 and the grounding discussion; 26:28 instructor video.",
+    "recall": "Reconstruct the room without sneaking in translation. Identify the disputed inference. Answer all four weak/strong-AI subquestions. Explain the three replies and one limit of each.",
+    "sections": [
+      "The setup and inferential target",
+      "Relationship to the Turing Test",
+      "Weak and strong AI in Searle's sense",
+      "Three course-specific responses",
+      "Grounding and the homunculus problem"
+    ]
+  },
+  {
+    "number": 14,
+    "title": "Biological computation: Bray's protein circuits",
+    "sources": "Source: Bray, all 18 assigned PDF pages; concentrate on Figs. 3.3 and 3.4, PDF pp. 10-11, printed pp. 67-68.",
+    "recall": "Explain substrate, enzyme, regulator, allostery, and feedback inhibition. Point to the control input and controlled conversion in Figs. 3.3/3.4. State both the value and limit of the transistor analogy.",
+    "sections": [
+      "Why a single cell can process information",
+      "Allostery: one interaction controls another",
+      "Why compare an enzyme with a transistor?",
+      "Networks, cascades, and feedback"
+    ]
+  },
+  {
+    "number": 15,
+    "title": "Video coverage and the required people",
+    "sources": "",
+    "recall": "",
+    "sections": [
+      "Video index",
+      "Alan Turing: paragraph-level preparation",
+      "Tribute details and how they connect to the course",
+      "René Descartes: paragraph-level preparation",
+      "Noam Chomsky: paragraph-level preparation",
+      "Two-sentence preparation for the other six names"
+    ]
+  },
+  {
+    "number": 16,
+    "title": "Q1-23: complete preparation answers",
+    "sources": "",
+    "recall": "",
+    "sections": [
+      "Q1. Cartesian minds",
+      "Q2. Methodological naturalism",
+      "Q3. Ontological naturalism",
+      "Q4. Boden",
+      "Q5. Scientism",
+      "Q6. Double dissociation",
+      "Q7. Ayala's culture",
+      "Q8. Joint attention observations",
+      "Q9. Finite Boolean function",
+      "Q10. Combinatorial and sequential",
+      "Q11. FSM plus diagram",
+      "Q12. Four synchronous conditions",
+      "Q13. Register",
+      "Q14. TM versus FSM and the operator",
+      "Q15. M implements F",
+      "Q16. Functional equivalence",
+      "Q17. UTM",
+      "Q18. VNM and TM",
+      "Q19. The three important facts",
+      "Q20. Church-Turing",
+      "Q21. Turing Test",
+      "Q22. Chinese Room and AI",
+      "Q23. Both McCarthy definitions"
+    ]
+  },
+  {
+    "number": 17,
+    "title": "Retrieval practice and error repair",
+    "sources": "",
+    "recall": "",
+    "sections": [
+      "A complete first pass",
+      "Twelve distinctions to produce from memory",
+      "Ten practice tasks",
+      "Answer checks",
+      "Frequent mistakes to catch",
+      "Final review sequence"
+    ]
+  },
+  {
+    "number": 18,
+    "title": "Source audit and exact reading map",
+    "sources": "",
+    "recall": "",
+    "sections": [
+      "Lecture and reading coverage",
+      "Reading entry points, without deleting the rest of the assignment",
+      "Navigating the sources",
+      "Compilation decisions"
+    ]
+  }
+]
