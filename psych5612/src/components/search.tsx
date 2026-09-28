@@ -6,6 +6,7 @@ import { useEffect, useState } from "react"
 
 import { Button } from "@/components/ui/button"
 import {
+  Command,
   CommandDialog,
   CommandEmpty,
   CommandGroup,
@@ -47,29 +48,31 @@ export function Search({ items }: { items: SearchItem[] }) {
         <Kbd className="hidden sm:inline-flex">⌘K</Kbd>
       </Button>
       <CommandDialog open={open} onOpenChange={setOpen} title="Search the guide" description="Jump to a section, question, or person">
-        <CommandInput placeholder="Try “register”, “Q16”, or “Zasetsky”" />
-        <CommandList>
-          <CommandEmpty>No matches.</CommandEmpty>
-          {groups.map((g) => (
-            <CommandGroup key={g} heading={g}>
-              {items
-                .filter((i) => i.group === g)
-                .map((i) => (
-                  <CommandItem
-                    key={i.href + i.title}
-                    value={`${i.title} ${i.detail ?? ""} ${i.group}`}
-                    onSelect={() => {
-                      setOpen(false)
-                      router.push(i.href)
-                    }}
-                  >
-                    <span className="truncate">{i.title}</span>
-                    {i.detail && <span className="ml-auto truncate pl-3 text-xs text-muted-foreground">{i.detail}</span>}
-                  </CommandItem>
-                ))}
-            </CommandGroup>
-          ))}
-        </CommandList>
+        <Command>
+          <CommandInput placeholder="Try “register”, “Q16”, or “Zasetsky”" />
+          <CommandList>
+            <CommandEmpty>No matches.</CommandEmpty>
+            {groups.map((g) => (
+              <CommandGroup key={g} heading={g}>
+                {items
+                  .filter((i) => i.group === g)
+                  .map((i) => (
+                    <CommandItem
+                      key={i.href + i.title}
+                      value={`${i.title} ${i.detail ?? ""} ${i.group}`}
+                      onSelect={() => {
+                        setOpen(false)
+                        router.push(i.href)
+                      }}
+                    >
+                      <span className="truncate">{i.title}</span>
+                      {i.detail && <span className="ml-auto truncate pl-3 text-xs text-muted-foreground">{i.detail}</span>}
+                    </CommandItem>
+                  ))}
+              </CommandGroup>
+            ))}
+          </CommandList>
+        </Command>
       </CommandDialog>
     </>
   )
