@@ -20,6 +20,11 @@ Open http://localhost:3000. Progress, self-ratings, and written drafts are saved
 
 Or from a terminal: `cd psych5612 && npx vercel --prod`.
 
+## Verify
+
+- `node scripts/e2e.mjs http://localhost:3000` drives the running site in headless Chrome, asserting widget behavior, the question-bank flow, search, and dark mode. It needs `puppeteer-core`.
+- `python3 scripts/check-fidelity.py path/to/PSYCH_5612_Midterm1_Master.pdf` reports, per guide page, how much of the PDF text appears in the markdown.
+
 ## Where the content lives
 
 - `src/content/guide/NN.md` holds the guide chapters as markdown. `scripts/convert-guide.py` produced the first draft from the PDF (headings come from the PDF bookmarks). Tables, diagrams, and callouts were then fixed by hand, so do not re-run it over the edited files.
